@@ -11,6 +11,6 @@ public class PuzzleStage : ScriptableObject {
 
 [Serializable]
 public class StagePiece {
-    public PuzzleObject puzzleObject;
+    public string objectName;
     public Vector2 position;
 }

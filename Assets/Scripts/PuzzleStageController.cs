@@ -5,7 +5,6 @@ using UnityEngine;
 public class PuzzleStageController : MonoBehaviour {
 
     public PuzzleObjectFactory factory;
-    public Transform container;
 
     private List<PuzzleObjectView> _views;
 
@@ -15,11 +14,21 @@ public class PuzzleStageController : MonoBehaviour {
     
     public void Create(PuzzleStage stage) {
         foreach (StagePiece piece in stage.pieces) {
-            PuzzleObjectView view = factory.Create(piece.puzzleObject);
-            view.transform.SetParent(container);
+            PuzzleObjectView view = factory.Create(piece.objectName);
             view.Place(piece.position.x, piece.position.y);
             _views.Add(view);
         }
+    }
+
+    public PuzzleObjectView AddView(string objectName, PuzzleObjectView creator) {
+        PuzzleObjectView view = factory.Create(objectName, creator);
+        _views.Add(view);
+        return view;
+    }
+
+    public void RemoveView(PuzzleObjectView view) {
+        Destroy(view.gameObject);
+        _views.Remove(view);
     }
 
     public void Clear() {

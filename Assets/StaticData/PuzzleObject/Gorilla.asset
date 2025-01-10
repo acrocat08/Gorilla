@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: "\u30B4\u30EA\u30E9"
   objectImage: {fileID: 21300000, guid: 7bbabf5667104d34bbe4108373a5516f, type: 3}
+  shadowPos: 0
+  hasLife: 1

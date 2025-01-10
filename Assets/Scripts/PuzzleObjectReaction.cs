@@ -9,7 +9,7 @@ public class PuzzleObjectReaction : ScriptableObject {
     public PuzzleObject targetB;
     public PuzzleObject subTarget;
 
-    public virtual async UniTask Play(HashSet<PuzzleObjectView> targetViews, PuzzleObjectView subTargetView) {
+    public virtual async UniTask Play(HashSet<PuzzleObjectView> targetViews, PuzzleObjectView subTargetView, PuzzleStageController controller) {
         
     }
 

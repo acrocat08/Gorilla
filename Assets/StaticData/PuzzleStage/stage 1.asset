@@ -13,13 +13,7 @@ MonoBehaviour:
   m_Name: stage 1
   m_EditorClassIdentifier: 
   pieces:
-  - puzzleObject: {fileID: 11400000, guid: 4ab0e6733ce62054999c38fff1b3e73c, type: 2}
-    position: {x: 1000, y: 500}
-  - puzzleObject: {fileID: 11400000, guid: 63748f8961381cd4d985ff223d3a2a9f, type: 2}
-    position: {x: 400, y: 500}
-  - puzzleObject: {fileID: 11400000, guid: 92d62682bf857ca42b9f08ca482c1ac6, type: 2}
-    position: {x: 600, y: 700}
-  - puzzleObject: {fileID: 11400000, guid: 412c1eccf27baf248bf1f54157c28068, type: 2}
-    position: {x: 1500, y: 700}
-  - puzzleObject: {fileID: 11400000, guid: 412c1eccf27baf248bf1f54157c28068, type: 2}
-    position: {x: 1200, y: 800}
+  - objectName: "\u30B4\u30EA\u30E9"
+    position: {x: 1200, y: 500}
+  - objectName: "\u30D0\u30CA\u30CA\u306E\u76AE"
+    position: {x: 500, y: 800}

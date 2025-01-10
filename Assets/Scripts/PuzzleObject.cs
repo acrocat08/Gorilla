@@ -9,6 +9,8 @@ public class PuzzleObject : ScriptableObject {
 
     public string objectName;
     public Sprite objectImage;
+    public float shadowPos;
+    public bool hasLife;
 }
 
 
