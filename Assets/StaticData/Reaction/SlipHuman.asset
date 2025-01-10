@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb8032cf9df74e41b3e0902fc355400, type: 3}
+  m_Name: SlipHuman
+  m_EditorClassIdentifier: 
+  targetA: {fileID: 11400000, guid: 89af33d3969904e1cb017e75ed5b2fd7, type: 2}
+  targetB: {fileID: 11400000, guid: d0473ee71397b4e9482835217840aee3, type: 2}
+  subTarget: {fileID: 0}
